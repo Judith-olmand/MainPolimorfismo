@@ -6,7 +6,7 @@ public class MainPolimorfismo  {
                 new AnimalGenerico(),
         };
 
-        //Se invoca el método sobrescrito correspondiente a cada objeto
+        //Se invoca el metodo sobrescrito correspondiente a cada objeto
         for (Animal a : animales) {
             a.hacerSonido();
         }
